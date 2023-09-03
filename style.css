@@ -1,0 +1,445 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* <!------------------- Navbar Section -------------------> */
+nav{
+    background-color:#FFFFFF;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 15px;
+    border: 1px solid #AAAAAA;
+    box-shadow: 0px 0px 3px 3px grey;
+}
+.logo{
+    width: 60%;
+    /* border: 1px solid red; */
+    padding-left: 30px;
+    
+}
+.menu{
+    width: 40%;
+    /* border: 1px solid grey; */
+    text-align: center;
+    padding-right: 20px;
+    line-height: 70px;
+}
+.menu ul>li{
+    list-style-type: none;
+    display: inline;
+    padding-left:30px;
+    color: #000000;
+    font-size: 18px;
+}
+.menu a{
+    text-decoration: none;
+    color: #000000;
+}
+img{
+    /* border: 1px solid green; */
+    padding-top: 10px;
+}
+
+  /* <!------------------- About Us Banner -------------------> */
+
+.Box-2{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 2px;
+    background-image:url(https://shorturl.at/izLT1);
+    background-size: 100% 100%;
+}
+
+.content{
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.box-2-heading{
+    color: #fff;
+    font-size: 32px;
+ }
+ .box-2-para{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 30px;
+ }
+ hr{
+    width: 525px;
+    padding: 2px;
+    background-color: #fff;
+    margin-top: 10px;
+ }
+
+/* <!----------------------------Service Card---------------------------------> */
+
+.row{
+        width: 100%;
+        height: 700px;
+        border: 2px solid blue;
+        padding-top: 40px;
+    }
+    .card{
+        width: 440px;
+        height: 300px;
+        border-radius: 12px;
+        border-radius: 8px;
+        box-shadow:  5px -5px 10px #d9d9d9,
+         -5px 5px 10px #e7e7e7;
+    }
+
+    .sub-row1,.sub-row2{
+        display: flex;
+        margin: 20px;
+        gap: 20px;
+        justify-content: center;
+    }
+  
+    #card-1{
+        height: 230px;
+        width: 440px;
+    }
+    #card-2{
+        background-image: url(https://shorturl.at/iEOP1);
+        background-size: 100% 100%;
+    }
+    #card-3{
+        background-image: url(https://shorturl.at/guzEO);
+        background-size: 100% 100%;
+    }
+    #card-4{
+        background-image: url(https://bit.ly/3pXsGzO);
+        background-size: 100% 100%;
+    }
+    #card-5{
+        background-image: url(https://bit.ly/44FcJxd);
+        background-size: 100% 100%;
+    }
+    #card-6{
+        background-image:url(https://shorturl.at/kADOT);
+        background-size: 100% 100%;
+    }
+    .span-text{
+        font-size: 22px;
+        font-weight:700;
+        color: #21a7d0;
+        letter-spacing: 1px;
+    }
+    .heading{
+        color: #112958;
+        font-size: 30px;
+        letter-spacing: 1px;
+
+    }
+    #card-1{
+        line-height: 30px;
+        padding: 70px 0px 0px 0px;
+        box-shadow: none;
+    }
+
+  /*----------------------------About Us Content--------------------------------*/
+
+ .box-3{
+    width: 100%;
+    height: 308px;
+    /* border: 2px solid rgb(152, 7, 7); */
+    background-image: url(https://shorturl.at/dqvP0);
+    background-size: 100%;
+    text-align: center;
+    line-height: 35px;
+ }
+.box-3>h2{
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    padding-top: 70px;
+}
+.box-3>h5{
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 15px;
+
+}
+
+.button>button{
+    padding: 12px 40px 12px 40px;
+    line-height: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500px;
+    background-color: transparent;
+    color: #21A7D0;
+    border: 1px solid #21A7D0;
+    
+}
+.button{
+    padding-top: 25px;
+}
+
+/* <!----------------------------Top Featured IT Services---------------------------------> */
+.main-top{
+        width: 100%;
+        height: 700px;
+        /* border: 2px solid red; */
+        /* background-color: red; */
+        background-image: url(https://shorturl.at/huG17);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        padding-top: 60px;
+     
+    }
+    .top-card{
+        height: 190px;
+        width: 350px;
+        /* border: 1px solid blue; */
+        text-align: center;
+        margin: 20px;
+        box-shadow: 18px -17px 6px -7px rgba(0,0,0,0.1);
+    }
+
+    .it-features{
+                color: #885AA6;
+    }
+    .top-card-box-1{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-top: 45px;
+    }
+    .top-card-box-2{
+        display: flex;
+        justify-content: center;
+    }
+    #top-icon{
+        font-size: 30px;
+        /* border: 1px solid red; */
+        border-radius: 50%;
+        padding: 7%;
+        background-color: #FFBE00;
+        color: #fff;
+    }
+
+    .top-card{
+        background-color:#ffffffbe;
+        padding-top: 25px;
+        border-radius: 8px;
+        padding-bottom:20px;
+    }
+    .top-card>p{
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        padding-top: 10px;
+    }
+
+/* <!----------------------------Today’s A Good Day---------------------------------> */
+
+.today-row{
+        width: 100%;
+        height: 380px;
+        display: flex;
+        /* border:3px solid #FF5421; */
+    }
+
+    .today-bg-img{
+        width: 55%;
+        height: 380px;
+        background-image: url(https://shorturl.at/cLV24);
+        background-size: 100% 100%;
+    }
+       
+    .today-content{
+        width: 45%;
+        height: 230px;
+        background-image: url(https://shorturl.at/mvIMX);
+        background-size: 100% 100%;
+        padding: 60px 80px 90px 80px;
+    }
+    
+    .today-content>h1{
+        color: white;
+        font-size: 36px;
+    }
+
+    .today-content>p{
+        color: white;
+        font-size: 20px;
+        padding-top: 30px;
+        line-height: 25px;
+    }
+    
+    .today-row button{
+        background-color:#FF5421;
+        padding: 15px 40px 15px 40px;
+        font-size: 19px;
+        color: #fff;
+        font-weight: 400px;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+
+    /* <!----------------------------Skill Card---------------------------------> */
+
+    .skill-row{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        padding-right: 10px;
+        /* border: 2px solid red; */
+    }
+    .skill-subject{
+        width: 290px;
+        height: 230px;
+        margin-left: 20px;
+        margin-top: 60px; 
+        background-color: #1C335F;
+        text-align: center;
+        border-radius: 10px;
+    }
+    #skill-icon{
+        font-size: 70px;
+        color: #FFCE29;
+        padding-top:30px;
+    }
+    .skill-row h3{
+        color: #fff;
+        font-size: 26px;
+        line-height: 36px;
+        margin-top: 10px;
+    }
+
+    /* <!----------------------------Counter Section---------------------------------> */
+
+    .counter-row{
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        background-image:url(https://bit.ly/3YiETMl);
+        background-size: 100% 100%;
+    }
+    .counter-card{
+        width: 250px;
+        height: 300px;
+        /* border: 1px solid blue; */
+        
+    }
+    #counter-icon{
+        color: #fff;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .counter-heading{
+        font-size: 65px;
+        color: #F4BD01;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .counter-para{
+        color: #fff;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+/* <!----------------------------Contact Us Form---------------------------------> */
+
+.contact-row{
+    background-color: #f9f9f9;
+    width:100%;
+    height: 250px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.contact-content {
+    text-align: center;
+}
+.contact-content h2{
+    font-size: 26px;
+    color: #333333;
+}
+.contact-content p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    color: #585858;
+}
+.contact-content input{
+    padding: 12px 220px 12px 20px;
+}
+.contact-content button{
+    padding: 11.5px 40px 13px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #865CA7;
+    border-radius: 3px;
+    color: #fff;
+    border-style: none;
+}
+.contact-content button:hover{
+    background-color: #555555;
+}
+
+/* <!----------------------------Footer Section---------------------------------> */
+
+footer{
+    width: 100%;
+    height: 450px;
+    /* border: 2px solid blue; */
+    display: flex;
+    border-top: 5px solid yellow;
+    background-color: rgb(4,34,68);
+    font-family: 'Open Sans', sans-serif;
+    font-family:'Poppins', sans-serif;;
+}
+.footer-card{
+    width: 400px;
+    height: 400px;
+    /* border: 1px solid red; */
+    color: #acb2bc;
+    padding: 45px 15px 15px 15px;
+}
+.footer-card{
+    padding-left: 20px;
+    line-height: 28px;
+}
+.footer-card>a{
+    color: #acb2bc;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight:normal;
+}
+.footer-card-1-para{
+    font-size: 12px;
+    
+}
+.footer-card-1-icon{
+    /* padding-right: 20px;
+     */
+}
+.footer-card-1-heading{
+    margin-bottom: 20px;
+}
+#footer-card-2{
+    line-height: 36px;
+}
+.footer-card-1-heading{
+    margin-bottom: 18px;
+}
+#footer-card-3{
+    line-height: 36px;
+}
